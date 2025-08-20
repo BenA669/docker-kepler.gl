@@ -6,7 +6,7 @@ RUN apk update \
 	&& apk upgrade \
 	&& apk add git
 
-RUN git clone https://github.com/uber/kepler.gl.git
+RUN git clone https://github.com/BenA669/kepler.gl.git
 
 WORKDIR /kepler.gl/examples/demo-app
 
